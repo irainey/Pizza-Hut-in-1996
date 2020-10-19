@@ -1,0 +1,49 @@
+<html>
+  <img src= "https://www.logolynx.com/images/logolynx/61/615886358ce4db6b13982e496aef103c.png" width="300" class="center"> 
+  <div class="divOne">
+  <h1> Welcome to Pizza Hut! </h1>
+  </div>
+ <h3>This electronic storefront was brought to you by <strong>Pizza Hut</strong> and  <strong>The Santa Cruz Operation</strong>. You may click on the Pizza Hut logo on any page to submit comments regarding this service to webmaster@pizzahut.com.</h3>
+  <h3>Take a look at what we have to offer:</h3> <button>Sample Menu</button>
+  <hr>
+  <h3>If you would like to order a pizza to be delivered, please provide the following information:</h3>
+  <form>
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" placeholder="Insert Name"><br>
+    <label for="address">Street Address</label><br>
+    <input type="text" id="address" name="address" placeholder="Insert Street Address"><br>
+    <label for="phone">Voice Phone ###-###-####</label><br>
+    <input type="text" id="phone" name="phoneNumber" placeholder="Insert Phone Number"> (where we can contact you)<br>
+    <input type="submit" value="Continue">
+  </form>
+  <hr>
+  <img src="https://images.all-free-download.com/images/graphiclarge/sco_0_71470.jpg" width="200" class="center">
+</html>
+
+<!--This is my CSS--!>
+
+h1{text-align: center}
+.divOne{ padding: 25px;}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+input[type=text], select {
+  width: 30x;
+  padding: 5px;
+  margin: 10px ;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width:8%;
+  color: black;
+  padding: 14px 20px;
+  margin:8px;
+  border: none;
+  border-radius:4px;
+  cursor: pointer;}
